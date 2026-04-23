@@ -1,0 +1,14 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load data from the CSV file using pandas
+csv_filename = 'loan_data.csv'
+df = pd.read_csv(csv_filename)
+
+plt.figure(figsize=(6, 6))
+plt.scatter(df['Income'], df['Score'], color='blue', alpha=0.7)
+plt.title('Scatter Plot: Income Against Credit Score')
+plt.xlabel('Income')
+plt.ylabel('Score')
+plt.grid(True)
+plt.show()
