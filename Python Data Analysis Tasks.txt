@@ -330,7 +330,7 @@ sample_sd2 = np.std(sample, ddof = 1)
 
 print('Sample mean:',sample_mean, '. Compared to the population:', population_mean)
 print('Sample sd default:',sample_sd1, '. Compared to the population:', population_sd)
-print('Sample sd ddof=1:',sample_sd1, '. Compared to the population:', population_sd)
+print('Sample sd ddof=1:',sample_sd2, '. Compared to the population:', population_sd)
 
 
 
